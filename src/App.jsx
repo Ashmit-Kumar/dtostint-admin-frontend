@@ -22,7 +22,7 @@ const App = () => {
       <AdminLayout>
         <Routes>
           {/* Single dashboard route with section navigation */}
-          <Route path="/dashboard" element={<Dashboard />} />
+{/*           <Route path="/dashboard" element={<Dashboard />} /> */}
           
           {/* Redirects */}
           <Route path="/" element={<Navigate to="/dashboard" replace />} />
