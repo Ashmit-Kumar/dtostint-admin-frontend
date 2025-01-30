@@ -25,7 +25,7 @@ const App = () => {
 {/*           <Route path="/dashboard" element={<Dashboard />} /> */}
           
           {/* Redirects */}
-          <Route path="/" element={<Navigate to="/dashboard" replace />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
       </AdminLayout>
